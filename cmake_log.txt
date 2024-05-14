@@ -1,0 +1,795 @@
+Preset CMake variables:
+
+  CMAKE_BUILD_TYPE="Release"
+  CMAKE_EXPERIMENTAL_CXX_SCANDEP_SOURCE:BOOL="TRUE"
+  CMAKE_INSTALL_PREFIX="/home/kira/apps/HiveWE-main/install/x64-Release"
+  CMAKE_TOOLCHAIN_FILE="/home/kira/apps/vcpkg/scripts/buildsystems/vcpkg.cmake"
+
+Preset environment variables:
+
+  VCPKG_TARGET_TRIPLET="x64-linux"
+
+-- Running vcpkg install
+warning: Embedding `vcpkg-configuration` in a manifest file is an EXPERIMENTAL feature.
+Detecting compiler hash for triplet x64-linux...
+Compiler found: /usr/lib64/ccache/c++
+All requested packages are currently installed.
+Total install time: 1.48 us
+abseil provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(absl CONFIG REQUIRED)
+  # note: 181 additional targets are not displayed.
+  target_link_libraries(main PRIVATE absl::any absl::log absl::base absl::bits)
+
+abseil provides pkg-config modules:
+
+  # Abseil absl_check library
+  absl_absl_check
+
+  # Abseil absl_log library
+  absl_absl_log
+
+  # Abseil absl_vlog_is_on library
+  absl_absl_vlog_is_on
+
+  # Abseil algorithm library
+  absl_algorithm
+
+  # Abseil algorithm_container library
+  absl_algorithm_container
+
+  # Abseil any library
+  absl_any
+
+  # Abseil any_invocable library
+  absl_any_invocable
+
+  # Abseil atomic_hook library
+  absl_atomic_hook
+
+  # Abseil bad_any_cast library
+  absl_bad_any_cast
+
+  # Abseil bad_any_cast_impl library
+  absl_bad_any_cast_impl
+
+  # Abseil bad_optional_access library
+  absl_bad_optional_access
+
+  # Abseil bad_variant_access library
+  absl_bad_variant_access
+
+  # Abseil base library
+  absl_base
+
+  # Abseil base_internal library
+  absl_base_internal
+
+  # Abseil bind_front library
+  absl_bind_front
+
+  # Abseil bits library
+  absl_bits
+
+  # Abseil btree library
+  absl_btree
+
+  # Abseil charset library
+  absl_charset
+
+  # Abseil check library
+  absl_check
+
+  # Abseil city library
+  absl_city
+
+  # Abseil civil_time library
+  absl_civil_time
+
+  # Abseil cleanup library
+  absl_cleanup
+
+  # Abseil cleanup_internal library
+  absl_cleanup_internal
+
+  # Abseil common_policy_traits library
+  absl_common_policy_traits
+
+  # Abseil compare library
+  absl_compare
+
+  # Abseil compressed_tuple library
+  absl_compressed_tuple
+
+  # Abseil config library
+  absl_config
+
+  # Abseil container_common library
+  absl_container_common
+
+  # Abseil container_memory library
+  absl_container_memory
+
+  # Abseil cord library
+  absl_cord
+
+  # Abseil cord_internal library
+  absl_cord_internal
+
+  # Abseil cordz_functions library
+  absl_cordz_functions
+
+  # Abseil cordz_handle library
+  absl_cordz_handle
+
+  # Abseil cordz_info library
+  absl_cordz_info
+
+  # Abseil cordz_sample_token library
+  absl_cordz_sample_token
+
+  # Abseil cordz_statistics library
+  absl_cordz_statistics
+
+  # Abseil cordz_update_scope library
+  absl_cordz_update_scope
+
+  # Abseil cordz_update_tracker library
+  absl_cordz_update_tracker
+
+  # Abseil core_headers library
+  absl_core_headers
+
+  # Abseil crc32c library
+  absl_crc32c
+
+  # Abseil crc_cord_state library
+  absl_crc_cord_state
+
+  # Abseil crc_cpu_detect library
+  absl_crc_cpu_detect
+
+  # Abseil crc_internal library
+  absl_crc_internal
+
+  # Abseil debugging library
+  absl_debugging
+
+  # Abseil debugging_internal library
+  absl_debugging_internal
+
+  # Abseil demangle_internal library
+  absl_demangle_internal
+
+  # Abseil die_if_null library
+  absl_die_if_null
+
+  # Abseil dynamic_annotations library
+  absl_dynamic_annotations
+
+  # Abseil endian library
+  absl_endian
+
+  # Abseil errno_saver library
+  absl_errno_saver
+
+  # Abseil examine_stack library
+  absl_examine_stack
+
+  # Abseil exponential_biased library
+  absl_exponential_biased
+
+  # Abseil failure_signal_handler library
+  absl_failure_signal_handler
+
+  # Abseil fast_type_id library
+  absl_fast_type_id
+
+  # Abseil fixed_array library
+  absl_fixed_array
+
+  # Abseil flags library
+  absl_flags
+
+  # Abseil flags_commandlineflag library
+  absl_flags_commandlineflag
+
+  # Abseil flags_commandlineflag_internal library
+  absl_flags_commandlineflag_internal
+
+  # Abseil flags_config library
+  absl_flags_config
+
+  # Abseil flags_internal library
+  absl_flags_internal
+
+  # Abseil flags_marshalling library
+  absl_flags_marshalling
+
+  # Abseil flags_parse library
+  absl_flags_parse
+
+  # Abseil flags_path_util library
+  absl_flags_path_util
+
+  # Abseil flags_private_handle_accessor library
+  absl_flags_private_handle_accessor
+
+  # Abseil flags_program_name library
+  absl_flags_program_name
+
+  # Abseil flags_reflection library
+  absl_flags_reflection
+
+  # Abseil flags_usage library
+  absl_flags_usage
+
+  # Abseil flags_usage_internal library
+  absl_flags_usage_internal
+
+  # Abseil flat_hash_map library
+  absl_flat_hash_map
+
+  # Abseil flat_hash_set library
+  absl_flat_hash_set
+
+  # Abseil function_ref library
+  absl_function_ref
+
+  # Abseil graphcycles_internal library
+  absl_graphcycles_internal
+
+  # Abseil has_ostream_operator library
+  absl_has_ostream_operator
+
+  # Abseil hash library
+  absl_hash
+
+  # Abseil hash_function_defaults library
+  absl_hash_function_defaults
+
+  # Abseil hash_policy_traits library
+  absl_hash_policy_traits
+
+  # Abseil hashtable_debug library
+  absl_hashtable_debug
+
+  # Abseil hashtable_debug_hooks library
+  absl_hashtable_debug_hooks
+
+  # Abseil hashtablez_sampler library
+  absl_hashtablez_sampler
+
+  # Abseil if_constexpr library
+  absl_if_constexpr
+
+  # Abseil inlined_vector library
+  absl_inlined_vector
+
+  # Abseil inlined_vector_internal library
+  absl_inlined_vector_internal
+
+  # Abseil int128 library
+  absl_int128
+
+  # Abseil kernel_timeout_internal library
+  absl_kernel_timeout_internal
+
+  # Abseil layout library
+  absl_layout
+
+  # Abseil leak_check library
+  absl_leak_check
+
+  # Abseil log library
+  absl_log
+
+  # Abseil log_entry library
+  absl_log_entry
+
+  # Abseil log_flags library
+  absl_log_flags
+
+  # Abseil log_globals library
+  absl_log_globals
+
+  # Abseil log_initialize library
+  absl_log_initialize
+
+  # Abseil log_internal_append_truncated library
+  absl_log_internal_append_truncated
+
+  # Abseil log_internal_check_impl library
+  absl_log_internal_check_impl
+
+  # Abseil log_internal_check_op library
+  absl_log_internal_check_op
+
+  # Abseil log_internal_conditions library
+  absl_log_internal_conditions
+
+  # Abseil log_internal_config library
+  absl_log_internal_config
+
+  # Abseil log_internal_flags library
+  absl_log_internal_flags
+
+  # Abseil log_internal_fnmatch library
+  absl_log_internal_fnmatch
+
+  # Abseil log_internal_format library
+  absl_log_internal_format
+
+  # Abseil log_internal_globals library
+  absl_log_internal_globals
+
+  # Abseil log_internal_log_impl library
+  absl_log_internal_log_impl
+
+  # Abseil log_internal_log_sink_set library
+  absl_log_internal_log_sink_set
+
+  # Abseil log_internal_message library
+  absl_log_internal_message
+
+  # Abseil log_internal_nullguard library
+  absl_log_internal_nullguard
+
+  # Abseil log_internal_nullstream library
+  absl_log_internal_nullstream
+
+  # Abseil log_internal_proto library
+  absl_log_internal_proto
+
+  # Abseil log_internal_strip library
+  absl_log_internal_strip
+
+  # Abseil log_internal_structured library
+  absl_log_internal_structured
+
+  # Abseil log_internal_voidify library
+  absl_log_internal_voidify
+
+  # Abseil log_severity library
+  absl_log_severity
+
+  # Abseil log_sink library
+  absl_log_sink
+
+  # Abseil log_sink_registry library
+  absl_log_sink_registry
+
+  # Abseil log_streamer library
+  absl_log_streamer
+
+  # Abseil log_structured library
+  absl_log_structured
+
+  # Abseil low_level_hash library
+  absl_low_level_hash
+
+  # Abseil malloc_internal library
+  absl_malloc_internal
+
+  # Abseil memory library
+  absl_memory
+
+  # Abseil meta library
+  absl_meta
+
+  # Abseil no_destructor library
+  absl_no_destructor
+
+  # Abseil node_hash_map library
+  absl_node_hash_map
+
+  # Abseil node_hash_set library
+  absl_node_hash_set
+
+  # Abseil node_slot_policy library
+  absl_node_slot_policy
+
+  # Abseil non_temporal_arm_intrinsics library
+  absl_non_temporal_arm_intrinsics
+
+  # Abseil non_temporal_memcpy library
+  absl_non_temporal_memcpy
+
+  # Abseil nullability library
+  absl_nullability
+
+  # Abseil numeric library
+  absl_numeric
+
+  # Abseil numeric_representation library
+  absl_numeric_representation
+
+  # Abseil optional library
+  absl_optional
+
+  # Abseil overload library
+  absl_overload
+
+  # Abseil periodic_sampler library
+  absl_periodic_sampler
+
+  # Abseil prefetch library
+  absl_prefetch
+
+  # Abseil pretty_function library
+  absl_pretty_function
+
+  # Abseil random_bit_gen_ref library
+  absl_random_bit_gen_ref
+
+  # Abseil random_distributions library
+  absl_random_distributions
+
+  # Abseil random_internal_distribution_caller library
+  absl_random_internal_distribution_caller
+
+  # Abseil random_internal_distribution_test_util library
+  absl_random_internal_distribution_test_util
+
+  # Abseil random_internal_fast_uniform_bits library
+  absl_random_internal_fast_uniform_bits
+
+  # Abseil random_internal_fastmath library
+  absl_random_internal_fastmath
+
+  # Abseil random_internal_generate_real library
+  absl_random_internal_generate_real
+
+  # Abseil random_internal_iostream_state_saver library
+  absl_random_internal_iostream_state_saver
+
+  # Abseil random_internal_mock_helpers library
+  absl_random_internal_mock_helpers
+
+  # Abseil random_internal_nonsecure_base library
+  absl_random_internal_nonsecure_base
+
+  # Abseil random_internal_pcg_engine library
+  absl_random_internal_pcg_engine
+
+  # Abseil random_internal_platform library
+  absl_random_internal_platform
+
+  # Abseil random_internal_pool_urbg library
+  absl_random_internal_pool_urbg
+
+  # Abseil random_internal_randen library
+  absl_random_internal_randen
+
+  # Abseil random_internal_randen_engine library
+  absl_random_internal_randen_engine
+
+  # Abseil random_internal_randen_hwaes library
+  absl_random_internal_randen_hwaes
+
+  # Abseil random_internal_randen_hwaes_impl library
+  absl_random_internal_randen_hwaes_impl
+
+  # Abseil random_internal_randen_slow library
+  absl_random_internal_randen_slow
+
+  # Abseil random_internal_salted_seed_seq library
+  absl_random_internal_salted_seed_seq
+
+  # Abseil random_internal_seed_material library
+  absl_random_internal_seed_material
+
+  # Abseil random_internal_traits library
+  absl_random_internal_traits
+
+  # Abseil random_internal_uniform_helper library
+  absl_random_internal_uniform_helper
+
+  # Abseil random_internal_wide_multiply library
+  absl_random_internal_wide_multiply
+
+  # Abseil random_random library
+  absl_random_random
+
+  # Abseil random_seed_gen_exception library
+  absl_random_seed_gen_exception
+
+  # Abseil random_seed_sequences library
+  absl_random_seed_sequences
+
+  # Abseil raw_hash_map library
+  absl_raw_hash_map
+
+  # Abseil raw_hash_set library
+  absl_raw_hash_set
+
+  # Abseil raw_logging_internal library
+  absl_raw_logging_internal
+
+  # Abseil sample_recorder library
+  absl_sample_recorder
+
+  # Abseil scoped_set_env library
+  absl_scoped_set_env
+
+  # Abseil span library
+  absl_span
+
+  # Abseil spinlock_wait library
+  absl_spinlock_wait
+
+  # Abseil stacktrace library
+  absl_stacktrace
+
+  # Abseil status library
+  absl_status
+
+  # Abseil statusor library
+  absl_statusor
+
+  # Abseil str_format library
+  absl_str_format
+
+  # Abseil str_format_internal library
+  absl_str_format_internal
+
+  # Abseil strerror library
+  absl_strerror
+
+  # Abseil string_view library
+  absl_string_view
+
+  # Abseil strings library
+  absl_strings
+
+  # Abseil strings_internal library
+  absl_strings_internal
+
+  # Abseil symbolize library
+  absl_symbolize
+
+  # Abseil synchronization library
+  absl_synchronization
+
+  # Abseil test_allocator library
+  absl_test_allocator
+
+  # Abseil throw_delegate library
+  absl_throw_delegate
+
+  # Abseil time library
+  absl_time
+
+  # Abseil time_zone library
+  absl_time_zone
+
+  # Abseil type_traits library
+  absl_type_traits
+
+  # Abseil utility library
+  absl_utility
+
+  # Abseil variant library
+  absl_variant
+
+  # Abseil vlog_config_internal library
+  absl_vlog_config_internal
+
+  # Abseil vlog_is_on library
+  absl_vlog_is_on
+
+Bullet3 provides CMake targets:
+
+    find_package(Bullet CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE ${BULLET_LIBRARIES})
+
+casclib provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(CascLib CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE CascLib::casc_static)
+
+The package fmt provides CMake targets:
+
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt)
+
+    # Or use the header-only version
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt-header-only)
+
+glad provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(glad CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE glad::glad)
+
+The package glm provides CMake targets:
+
+    find_package(glm CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE glm::glm)
+
+    # Or use the header-only version
+    find_package(glm CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE glm::glm-header-only)
+
+imgui provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(imgui CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE imgui::imgui)
+
+libjpeg-turbo is compatible with built-in implementation-agnostic CMake targets:
+
+    find_package(JPEG REQUIRED)
+    target_include_directories(main PRIVATE JPEG::JPEG)
+
+libjpeg-turbo provides CMake targets for the TurboJPEG C API:
+
+    find_package(libjpeg-turbo CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE $<IF:$<TARGET_EXISTS:libjpeg-turbo::turbojpeg>,libjpeg-turbo::turbojpeg,libjpeg-turbo::turbojpeg-static>)
+
+The package outcome provides CMake targets:
+
+    find_package(outcome CONFIG REQUIRED)
+    target_link_libraries(main PUBLIC outcome::hl)
+
+qtbase provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(Qt6 CONFIG REQUIRED)
+  # note: 45 additional targets are not displayed.
+  target_link_libraries(main PRIVATE DB2::DB2 PPS::PPS Oracle::OCI Libb2::Libb2)
+
+  find_package(Qt6Concurrent CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Qt::Concurrent Qt6::Concurrent Qt::ConcurrentPrivate Qt6::ConcurrentPrivate)
+
+  find_package(Qt6Core CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Qt::Core Qt6::Core Qt::CorePrivate Qt6::CorePrivate)
+
+  find_package(Qt6DBus CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Qt::DBus Qt6::DBus Qt::DBusPrivate Qt6::DBusPrivate)
+
+  find_package(Qt6DeviceDiscoverySupportPrivate CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Qt::DeviceDiscoverySupportPrivate Qt6::DeviceDiscoverySupportPrivate)
+
+  find_package(Qt6EglFSDeviceIntegrationPrivate CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Qt::EglFSDeviceIntegrationPrivate Qt6::EglFSDeviceIntegrationPrivate Qt6::EglFSDeviceIntegrationPrivate_resources_1)
+
+  find_package(Qt6ExampleIconsPrivate CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Qt::ExampleIconsPrivate Qt6::ExampleIconsPrivate Qt6::ExampleIconsPrivate_resources_1)
+
+  find_package(Qt6FbSupportPrivate CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Qt::FbSupportPrivate Qt6::FbSupportPrivate)
+
+  find_package(Qt6Gui CONFIG REQUIRED)
+  # note: 46 additional targets are not displayed.
+  target_link_libraries(main PRIVATE Qt::Gui Qt6::Gui Qt::GuiPrivate Qt6::GuiPrivate)
+
+  find_package(Qt6InputSupportPrivate CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Qt::InputSupportPrivate Qt6::InputSupportPrivate)
+
+  find_package(Qt6Network CONFIG REQUIRED)
+  # note: 6 additional targets are not displayed.
+  target_link_libraries(main PRIVATE Qt::Network Qt6::Network Qt::NetworkPrivate Qt6::NetworkPrivate)
+
+  find_package(Qt6OpenGL CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Qt::OpenGL Qt6::OpenGL Qt::OpenGLPrivate Qt6::OpenGLPrivate)
+
+  find_package(Qt6OpenGLWidgets CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Qt::OpenGLWidgets Qt6::OpenGLWidgets Qt::OpenGLWidgetsPrivate Qt6::OpenGLWidgetsPrivate)
+
+  find_package(Qt6PrintSupport CONFIG REQUIRED)
+  # note: 4 additional targets are not displayed.
+  target_link_libraries(main PRIVATE Qt::PrintSupport Qt6::PrintSupport Qt::PrintSupportPrivate Qt6::PrintSupportPrivate)
+
+  find_package(Qt6Sql CONFIG REQUIRED)
+  # note: 4 additional targets are not displayed.
+  target_link_libraries(main PRIVATE Qt::Sql Qt6::Sql Qt::SqlPrivate Qt6::SqlPrivate)
+
+  find_package(Qt6Test CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Qt::Test Qt6::Test Qt::TestPrivate Qt6::TestPrivate)
+
+  find_package(Qt6Widgets CONFIG REQUIRED)
+  # note: 4 additional targets are not displayed.
+  target_link_libraries(main PRIVATE Qt::Widgets Qt6::Widgets Qt::WidgetsPrivate Qt6::WidgetsPrivate)
+
+  find_package(Qt6XcbQpaPrivate CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Qt::XcbQpaPrivate Qt6::XcbQpaPrivate)
+
+  find_package(Qt6Xml CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Qt::Xml Qt6::Xml Qt::XmlPrivate Qt6::XmlPrivate)
+
+qt-advanced-docking-system provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(qtadvanceddocking CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE ads::qtadvanceddocking)
+
+soil2 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(soil2 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE soil2::soil2)
+
+stormlib provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(stormlib CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE stormlib::stormlib)
+
+tbb provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(TBB CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE TBB::tbb TBB::tbbmalloc)
+
+tbb provides pkg-config modules:
+
+  # C++ library for parallel programming on multi-core processors.
+  tbb
+
+unordered-dense provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(unordered_dense CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE unordered_dense::unordered_dense)
+
+-- Running vcpkg install - done
+-- Using system ZLIB.
+-- Found the following ICU libraries:
+--   i18n (required): /home/kira/apps/HiveWE-main/build/x64-Release/vcpkg_installed/x64-linux/lib/libicui18n.a
+--   uc (required): /home/kira/apps/HiveWE-main/build/x64-Release/vcpkg_installed/x64-linux/lib/libicuuc.a
+--   data (required): /home/kira/apps/HiveWE-main/build/x64-Release/vcpkg_installed/x64-linux/lib/libicudata.a
+-- Using system PCRE2.
+-- Found OpenGL: /usr/lib64/libOpenGL.so   
+-- Found OpenGL: /usr/lib64/libOpenGL.so  found components: EGL 
+-- Using system PNG.
+-- Using system Harfbuzz.
+-- Using system Freetype.
+-- Could NOT find XCB_XEVIE (missing: XCB_XEVIE_LIBRARY) (found version "")
+-- Could NOT find XCB_XPRINT (missing: XCB_XPRINT_LIBRARY) (found version "")
+-- Found XCB: /usr/lib64/libxcb.so;/usr/lib64/libxcb-render.so;/usr/lib64/libxcb-shape.so;/usr/lib64/libxcb-xfixes.so;/usr/lib64/libxcb-shm.so;/usr/lib64/libxcb-util.so;/usr/lib64/libxcb-composite.so;/usr/lib64/libxcb-cursor.so;/usr/lib64/libxcb-damage.so;/usr/lib64/libxcb-dpms.so;/usr/lib64/libxcb-dri2.so;/usr/lib64/libxcb-dri3.so;/usr/lib64/libxcb-ewmh.so;/usr/lib64/libxcb-glx.so;/usr/lib64/libxcb-icccm.so;/usr/lib64/libxcb-image.so;/usr/lib64/libxcb-keysyms.so;/usr/lib64/libxcb-present.so;/usr/lib64/libxcb-randr.so;/usr/lib64/libxcb-record.so;/usr/lib64/libxcb-render-util.so;/usr/lib64/libxcb-res.so;/usr/lib64/libxcb-screensaver.so;/usr/lib64/libxcb-sync.so;/usr/lib64/libxcb-xf86dri.so;/usr/lib64/libxcb-xinerama.so;/usr/lib64/libxcb-xinput.so;/usr/lib64/libxcb-xkb.so;/usr/lib64/libxcb-xtest.so;/usr/lib64/libxcb-xv.so;/usr/lib64/libxcb-xvmc.so (found suitable version "1.13.1", minimum required is "1.11")  
+-- Using system Jpeg.
+-- XCB: CURSOR requires XCB
+-- Found XCB: /usr/lib64/libxcb.so;/usr/lib64/libxcb-render.so;/usr/lib64/libxcb-shape.so;/usr/lib64/libxcb-xfixes.so;/usr/lib64/libxcb-shm.so;/usr/lib64/libxcb-util.so;/usr/lib64/libxcb-composite.so;/usr/lib64/libxcb-cursor.so;/usr/lib64/libxcb-damage.so;/usr/lib64/libxcb-dpms.so;/usr/lib64/libxcb-dri2.so;/usr/lib64/libxcb-dri3.so;/usr/lib64/libxcb-ewmh.so;/usr/lib64/libxcb-glx.so;/usr/lib64/libxcb-icccm.so;/usr/lib64/libxcb-image.so;/usr/lib64/libxcb-keysyms.so;/usr/lib64/libxcb-present.so;/usr/lib64/libxcb-randr.so;/usr/lib64/libxcb-record.so;/usr/lib64/libxcb-render-util.so;/usr/lib64/libxcb-res.so;/usr/lib64/libxcb-screensaver.so;/usr/lib64/libxcb-sync.so;/usr/lib64/libxcb-xf86dri.so;/usr/lib64/libxcb-xinerama.so;/usr/lib64/libxcb-xinput.so;/usr/lib64/libxcb-xkb.so;/usr/lib64/libxcb-xtest.so;/usr/lib64/libxcb-xv.so;/usr/lib64/libxcb-xvmc.so (found suitable version "1.13.1", minimum required is "0.1.1") found components: CURSOR 
+-- XCB: ICCCM requires XCB
+-- Found XCB: /usr/lib64/libxcb.so;/usr/lib64/libxcb-render.so;/usr/lib64/libxcb-shape.so;/usr/lib64/libxcb-xfixes.so;/usr/lib64/libxcb-shm.so;/usr/lib64/libxcb-util.so;/usr/lib64/libxcb-composite.so;/usr/lib64/libxcb-cursor.so;/usr/lib64/libxcb-damage.so;/usr/lib64/libxcb-dpms.so;/usr/lib64/libxcb-dri2.so;/usr/lib64/libxcb-dri3.so;/usr/lib64/libxcb-ewmh.so;/usr/lib64/libxcb-glx.so;/usr/lib64/libxcb-icccm.so;/usr/lib64/libxcb-image.so;/usr/lib64/libxcb-keysyms.so;/usr/lib64/libxcb-present.so;/usr/lib64/libxcb-randr.so;/usr/lib64/libxcb-record.so;/usr/lib64/libxcb-render-util.so;/usr/lib64/libxcb-res.so;/usr/lib64/libxcb-screensaver.so;/usr/lib64/libxcb-sync.so;/usr/lib64/libxcb-xf86dri.so;/usr/lib64/libxcb-xinerama.so;/usr/lib64/libxcb-xinput.so;/usr/lib64/libxcb-xkb.so;/usr/lib64/libxcb-xtest.so;/usr/lib64/libxcb-xv.so;/usr/lib64/libxcb-xvmc.so (found suitable version "1.13.1", minimum required is "0.3.9") found components: ICCCM 
+-- XCB: IMAGE requires XCB;SHM
+-- XCB: IMAGE requires XCB;SHM
+-- Found XCB: /usr/lib64/libxcb.so;/usr/lib64/libxcb-render.so;/usr/lib64/libxcb-shape.so;/usr/lib64/libxcb-xfixes.so;/usr/lib64/libxcb-shm.so;/usr/lib64/libxcb-util.so;/usr/lib64/libxcb-composite.so;/usr/lib64/libxcb-cursor.so;/usr/lib64/libxcb-damage.so;/usr/lib64/libxcb-dpms.so;/usr/lib64/libxcb-dri2.so;/usr/lib64/libxcb-dri3.so;/usr/lib64/libxcb-ewmh.so;/usr/lib64/libxcb-glx.so;/usr/lib64/libxcb-icccm.so;/usr/lib64/libxcb-image.so;/usr/lib64/libxcb-keysyms.so;/usr/lib64/libxcb-present.so;/usr/lib64/libxcb-randr.so;/usr/lib64/libxcb-record.so;/usr/lib64/libxcb-render-util.so;/usr/lib64/libxcb-res.so;/usr/lib64/libxcb-screensaver.so;/usr/lib64/libxcb-sync.so;/usr/lib64/libxcb-xf86dri.so;/usr/lib64/libxcb-xinerama.so;/usr/lib64/libxcb-xinput.so;/usr/lib64/libxcb-xkb.so;/usr/lib64/libxcb-xtest.so;/usr/lib64/libxcb-xv.so;/usr/lib64/libxcb-xvmc.so (found suitable version "1.13.1", minimum required is "0.3.9") found components: IMAGE 
+-- XCB: KEYSYMS requires XCB
+-- Found XCB: /usr/lib64/libxcb.so;/usr/lib64/libxcb-render.so;/usr/lib64/libxcb-shape.so;/usr/lib64/libxcb-xfixes.so;/usr/lib64/libxcb-shm.so;/usr/lib64/libxcb-util.so;/usr/lib64/libxcb-composite.so;/usr/lib64/libxcb-cursor.so;/usr/lib64/libxcb-damage.so;/usr/lib64/libxcb-dpms.so;/usr/lib64/libxcb-dri2.so;/usr/lib64/libxcb-dri3.so;/usr/lib64/libxcb-ewmh.so;/usr/lib64/libxcb-glx.so;/usr/lib64/libxcb-icccm.so;/usr/lib64/libxcb-image.so;/usr/lib64/libxcb-keysyms.so;/usr/lib64/libxcb-present.so;/usr/lib64/libxcb-randr.so;/usr/lib64/libxcb-record.so;/usr/lib64/libxcb-render-util.so;/usr/lib64/libxcb-res.so;/usr/lib64/libxcb-screensaver.so;/usr/lib64/libxcb-sync.so;/usr/lib64/libxcb-xf86dri.so;/usr/lib64/libxcb-xinerama.so;/usr/lib64/libxcb-xinput.so;/usr/lib64/libxcb-xkb.so;/usr/lib64/libxcb-xtest.so;/usr/lib64/libxcb-xv.so;/usr/lib64/libxcb-xvmc.so (found suitable version "1.13.1", minimum required is "0.3.9") found components: KEYSYMS 
+-- XCB: RANDR requires XCB
+-- Found XCB: /usr/lib64/libxcb.so;/usr/lib64/libxcb-render.so;/usr/lib64/libxcb-shape.so;/usr/lib64/libxcb-xfixes.so;/usr/lib64/libxcb-shm.so;/usr/lib64/libxcb-util.so;/usr/lib64/libxcb-composite.so;/usr/lib64/libxcb-cursor.so;/usr/lib64/libxcb-damage.so;/usr/lib64/libxcb-dpms.so;/usr/lib64/libxcb-dri2.so;/usr/lib64/libxcb-dri3.so;/usr/lib64/libxcb-ewmh.so;/usr/lib64/libxcb-glx.so;/usr/lib64/libxcb-icccm.so;/usr/lib64/libxcb-image.so;/usr/lib64/libxcb-keysyms.so;/usr/lib64/libxcb-present.so;/usr/lib64/libxcb-randr.so;/usr/lib64/libxcb-record.so;/usr/lib64/libxcb-render-util.so;/usr/lib64/libxcb-res.so;/usr/lib64/libxcb-screensaver.so;/usr/lib64/libxcb-sync.so;/usr/lib64/libxcb-xf86dri.so;/usr/lib64/libxcb-xinerama.so;/usr/lib64/libxcb-xinput.so;/usr/lib64/libxcb-xkb.so;/usr/lib64/libxcb-xtest.so;/usr/lib64/libxcb-xv.so;/usr/lib64/libxcb-xvmc.so (found version "1.13.1") found components: RANDR 
+-- XCB: RENDER requires XCB
+-- Found XCB: /usr/lib64/libxcb.so;/usr/lib64/libxcb-render.so;/usr/lib64/libxcb-shape.so;/usr/lib64/libxcb-xfixes.so;/usr/lib64/libxcb-shm.so;/usr/lib64/libxcb-util.so;/usr/lib64/libxcb-composite.so;/usr/lib64/libxcb-cursor.so;/usr/lib64/libxcb-damage.so;/usr/lib64/libxcb-dpms.so;/usr/lib64/libxcb-dri2.so;/usr/lib64/libxcb-dri3.so;/usr/lib64/libxcb-ewmh.so;/usr/lib64/libxcb-glx.so;/usr/lib64/libxcb-icccm.so;/usr/lib64/libxcb-image.so;/usr/lib64/libxcb-keysyms.so;/usr/lib64/libxcb-present.so;/usr/lib64/libxcb-randr.so;/usr/lib64/libxcb-record.so;/usr/lib64/libxcb-render-util.so;/usr/lib64/libxcb-res.so;/usr/lib64/libxcb-screensaver.so;/usr/lib64/libxcb-sync.so;/usr/lib64/libxcb-xf86dri.so;/usr/lib64/libxcb-xinerama.so;/usr/lib64/libxcb-xinput.so;/usr/lib64/libxcb-xkb.so;/usr/lib64/libxcb-xtest.so;/usr/lib64/libxcb-xv.so;/usr/lib64/libxcb-xvmc.so (found version "1.13.1") found components: RENDER 
+-- XCB: RENDERUTIL requires XCB;RENDER
+-- XCB: RENDERUTIL requires XCB;RENDER
+-- Found XCB: /usr/lib64/libxcb.so;/usr/lib64/libxcb-render.so;/usr/lib64/libxcb-shape.so;/usr/lib64/libxcb-xfixes.so;/usr/lib64/libxcb-shm.so;/usr/lib64/libxcb-util.so;/usr/lib64/libxcb-composite.so;/usr/lib64/libxcb-cursor.so;/usr/lib64/libxcb-damage.so;/usr/lib64/libxcb-dpms.so;/usr/lib64/libxcb-dri2.so;/usr/lib64/libxcb-dri3.so;/usr/lib64/libxcb-ewmh.so;/usr/lib64/libxcb-glx.so;/usr/lib64/libxcb-icccm.so;/usr/lib64/libxcb-image.so;/usr/lib64/libxcb-keysyms.so;/usr/lib64/libxcb-present.so;/usr/lib64/libxcb-randr.so;/usr/lib64/libxcb-record.so;/usr/lib64/libxcb-render-util.so;/usr/lib64/libxcb-res.so;/usr/lib64/libxcb-screensaver.so;/usr/lib64/libxcb-sync.so;/usr/lib64/libxcb-xf86dri.so;/usr/lib64/libxcb-xinerama.so;/usr/lib64/libxcb-xinput.so;/usr/lib64/libxcb-xkb.so;/usr/lib64/libxcb-xtest.so;/usr/lib64/libxcb-xv.so;/usr/lib64/libxcb-xvmc.so (found suitable version "1.13.1", minimum required is "0.3.9") found components: RENDERUTIL 
+-- XCB: SHAPE requires XCB
+-- Found XCB: /usr/lib64/libxcb.so;/usr/lib64/libxcb-render.so;/usr/lib64/libxcb-shape.so;/usr/lib64/libxcb-xfixes.so;/usr/lib64/libxcb-shm.so;/usr/lib64/libxcb-util.so;/usr/lib64/libxcb-composite.so;/usr/lib64/libxcb-cursor.so;/usr/lib64/libxcb-damage.so;/usr/lib64/libxcb-dpms.so;/usr/lib64/libxcb-dri2.so;/usr/lib64/libxcb-dri3.so;/usr/lib64/libxcb-ewmh.so;/usr/lib64/libxcb-glx.so;/usr/lib64/libxcb-icccm.so;/usr/lib64/libxcb-image.so;/usr/lib64/libxcb-keysyms.so;/usr/lib64/libxcb-present.so;/usr/lib64/libxcb-randr.so;/usr/lib64/libxcb-record.so;/usr/lib64/libxcb-render-util.so;/usr/lib64/libxcb-res.so;/usr/lib64/libxcb-screensaver.so;/usr/lib64/libxcb-sync.so;/usr/lib64/libxcb-xf86dri.so;/usr/lib64/libxcb-xinerama.so;/usr/lib64/libxcb-xinput.so;/usr/lib64/libxcb-xkb.so;/usr/lib64/libxcb-xtest.so;/usr/lib64/libxcb-xv.so;/usr/lib64/libxcb-xvmc.so (found version "1.13.1") found components: SHAPE 
+-- XCB: SHM requires XCB
+-- Found XCB: /usr/lib64/libxcb.so;/usr/lib64/libxcb-render.so;/usr/lib64/libxcb-shape.so;/usr/lib64/libxcb-xfixes.so;/usr/lib64/libxcb-shm.so;/usr/lib64/libxcb-util.so;/usr/lib64/libxcb-composite.so;/usr/lib64/libxcb-cursor.so;/usr/lib64/libxcb-damage.so;/usr/lib64/libxcb-dpms.so;/usr/lib64/libxcb-dri2.so;/usr/lib64/libxcb-dri3.so;/usr/lib64/libxcb-ewmh.so;/usr/lib64/libxcb-glx.so;/usr/lib64/libxcb-icccm.so;/usr/lib64/libxcb-image.so;/usr/lib64/libxcb-keysyms.so;/usr/lib64/libxcb-present.so;/usr/lib64/libxcb-randr.so;/usr/lib64/libxcb-record.so;/usr/lib64/libxcb-render-util.so;/usr/lib64/libxcb-res.so;/usr/lib64/libxcb-screensaver.so;/usr/lib64/libxcb-sync.so;/usr/lib64/libxcb-xf86dri.so;/usr/lib64/libxcb-xinerama.so;/usr/lib64/libxcb-xinput.so;/usr/lib64/libxcb-xkb.so;/usr/lib64/libxcb-xtest.so;/usr/lib64/libxcb-xv.so;/usr/lib64/libxcb-xvmc.so (found version "1.13.1") found components: SHM 
+-- XCB: SYNC requires XCB
+-- Found XCB: /usr/lib64/libxcb.so;/usr/lib64/libxcb-render.so;/usr/lib64/libxcb-shape.so;/usr/lib64/libxcb-xfixes.so;/usr/lib64/libxcb-shm.so;/usr/lib64/libxcb-util.so;/usr/lib64/libxcb-composite.so;/usr/lib64/libxcb-cursor.so;/usr/lib64/libxcb-damage.so;/usr/lib64/libxcb-dpms.so;/usr/lib64/libxcb-dri2.so;/usr/lib64/libxcb-dri3.so;/usr/lib64/libxcb-ewmh.so;/usr/lib64/libxcb-glx.so;/usr/lib64/libxcb-icccm.so;/usr/lib64/libxcb-image.so;/usr/lib64/libxcb-keysyms.so;/usr/lib64/libxcb-present.so;/usr/lib64/libxcb-randr.so;/usr/lib64/libxcb-record.so;/usr/lib64/libxcb-render-util.so;/usr/lib64/libxcb-res.so;/usr/lib64/libxcb-screensaver.so;/usr/lib64/libxcb-sync.so;/usr/lib64/libxcb-xf86dri.so;/usr/lib64/libxcb-xinerama.so;/usr/lib64/libxcb-xinput.so;/usr/lib64/libxcb-xkb.so;/usr/lib64/libxcb-xtest.so;/usr/lib64/libxcb-xv.so;/usr/lib64/libxcb-xvmc.so (found version "1.13.1") found components: SYNC 
+-- XCB: XFIXES requires XCB;RENDER;SHAPE
+-- XCB: XFIXES requires XCB;RENDER;SHAPE
+-- XCB: XFIXES requires XCB;RENDER;SHAPE
+-- Found XCB: /usr/lib64/libxcb.so;/usr/lib64/libxcb-render.so;/usr/lib64/libxcb-shape.so;/usr/lib64/libxcb-xfixes.so;/usr/lib64/libxcb-shm.so;/usr/lib64/libxcb-util.so;/usr/lib64/libxcb-composite.so;/usr/lib64/libxcb-cursor.so;/usr/lib64/libxcb-damage.so;/usr/lib64/libxcb-dpms.so;/usr/lib64/libxcb-dri2.so;/usr/lib64/libxcb-dri3.so;/usr/lib64/libxcb-ewmh.so;/usr/lib64/libxcb-glx.so;/usr/lib64/libxcb-icccm.so;/usr/lib64/libxcb-image.so;/usr/lib64/libxcb-keysyms.so;/usr/lib64/libxcb-present.so;/usr/lib64/libxcb-randr.so;/usr/lib64/libxcb-record.so;/usr/lib64/libxcb-render-util.so;/usr/lib64/libxcb-res.so;/usr/lib64/libxcb-screensaver.so;/usr/lib64/libxcb-sync.so;/usr/lib64/libxcb-xf86dri.so;/usr/lib64/libxcb-xinerama.so;/usr/lib64/libxcb-xinput.so;/usr/lib64/libxcb-xkb.so;/usr/lib64/libxcb-xtest.so;/usr/lib64/libxcb-xv.so;/usr/lib64/libxcb-xvmc.so (found version "1.13.1") found components: XFIXES 
+-- XCB: XKB requires XCB
+-- Found XCB: /usr/lib64/libxcb.so;/usr/lib64/libxcb-render.so;/usr/lib64/libxcb-shape.so;/usr/lib64/libxcb-xfixes.so;/usr/lib64/libxcb-shm.so;/usr/lib64/libxcb-util.so;/usr/lib64/libxcb-composite.so;/usr/lib64/libxcb-cursor.so;/usr/lib64/libxcb-damage.so;/usr/lib64/libxcb-dpms.so;/usr/lib64/libxcb-dri2.so;/usr/lib64/libxcb-dri3.so;/usr/lib64/libxcb-ewmh.so;/usr/lib64/libxcb-glx.so;/usr/lib64/libxcb-icccm.so;/usr/lib64/libxcb-image.so;/usr/lib64/libxcb-keysyms.so;/usr/lib64/libxcb-present.so;/usr/lib64/libxcb-randr.so;/usr/lib64/libxcb-record.so;/usr/lib64/libxcb-render-util.so;/usr/lib64/libxcb-res.so;/usr/lib64/libxcb-screensaver.so;/usr/lib64/libxcb-sync.so;/usr/lib64/libxcb-xf86dri.so;/usr/lib64/libxcb-xinerama.so;/usr/lib64/libxcb-xinput.so;/usr/lib64/libxcb-xkb.so;/usr/lib64/libxcb-xtest.so;/usr/lib64/libxcb-xv.so;/usr/lib64/libxcb-xvmc.so (found version "1.13.1") found components: XKB 
+-- XCB: XINPUT requires XCB
+-- Found XCB: /usr/lib64/libxcb.so;/usr/lib64/libxcb-render.so;/usr/lib64/libxcb-shape.so;/usr/lib64/libxcb-xfixes.so;/usr/lib64/libxcb-shm.so;/usr/lib64/libxcb-util.so;/usr/lib64/libxcb-composite.so;/usr/lib64/libxcb-cursor.so;/usr/lib64/libxcb-damage.so;/usr/lib64/libxcb-dpms.so;/usr/lib64/libxcb-dri2.so;/usr/lib64/libxcb-dri3.so;/usr/lib64/libxcb-ewmh.so;/usr/lib64/libxcb-glx.so;/usr/lib64/libxcb-icccm.so;/usr/lib64/libxcb-image.so;/usr/lib64/libxcb-keysyms.so;/usr/lib64/libxcb-present.so;/usr/lib64/libxcb-randr.so;/usr/lib64/libxcb-record.so;/usr/lib64/libxcb-render-util.so;/usr/lib64/libxcb-res.so;/usr/lib64/libxcb-screensaver.so;/usr/lib64/libxcb-sync.so;/usr/lib64/libxcb-xf86dri.so;/usr/lib64/libxcb-xinerama.so;/usr/lib64/libxcb-xinput.so;/usr/lib64/libxcb-xkb.so;/usr/lib64/libxcb-xtest.so;/usr/lib64/libxcb-xv.so;/usr/lib64/libxcb-xvmc.so (found suitable version "1.13.1", minimum required is "1.12") found components: XINPUT 
+-- XCB: GLX requires XCB
+-- Found XCB: /usr/lib64/libxcb.so;/usr/lib64/libxcb-render.so;/usr/lib64/libxcb-shape.so;/usr/lib64/libxcb-xfixes.so;/usr/lib64/libxcb-shm.so;/usr/lib64/libxcb-util.so;/usr/lib64/libxcb-composite.so;/usr/lib64/libxcb-cursor.so;/usr/lib64/libxcb-damage.so;/usr/lib64/libxcb-dpms.so;/usr/lib64/libxcb-dri2.so;/usr/lib64/libxcb-dri3.so;/usr/lib64/libxcb-ewmh.so;/usr/lib64/libxcb-glx.so;/usr/lib64/libxcb-icccm.so;/usr/lib64/libxcb-image.so;/usr/lib64/libxcb-keysyms.so;/usr/lib64/libxcb-present.so;/usr/lib64/libxcb-randr.so;/usr/lib64/libxcb-record.so;/usr/lib64/libxcb-render-util.so;/usr/lib64/libxcb-res.so;/usr/lib64/libxcb-screensaver.so;/usr/lib64/libxcb-sync.so;/usr/lib64/libxcb-xf86dri.so;/usr/lib64/libxcb-xinerama.so;/usr/lib64/libxcb-xinput.so;/usr/lib64/libxcb-xkb.so;/usr/lib64/libxcb-xtest.so;/usr/lib64/libxcb-xv.so;/usr/lib64/libxcb-xvmc.so (found version "1.13.1") found components: GLX 
+-- Found OpenGL: /usr/lib64/libOpenGL.so   
+CMake Warning (dev) at src/CMakeLists.txt:1 (target_sources):
+  CMake's C++ module support is experimental.  It is meant only for
+  experimentation and feedback to CMake developers.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (15.8s)
+-- Generating done (0.3s)
+-- Build files have been written to: /home/kira/apps/HiveWE-main/build/x64-Release

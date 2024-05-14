@@ -1,0 +1,43 @@
+ninja: Entering directory `build/x64-Release'
+[1/201] Automatic MOC and UIC for target HiveWE
+[2/201] Scanning /home/kira/apps/HiveWE-main/build/x64-Release/HiveWE_autogen/mocs_compilation.cpp for CXX dependencies
+FAILED: CMakeFiles/HiveWE.dir/HiveWE_autogen/mocs_compilation.cpp.o.ddi 
+TRUE
+/bin/sh: строка 1: TRUE: команда не найдена
+[3/201] Scanning /home/kira/apps/HiveWE-main/src/main.cpp for CXX dependencies
+FAILED: CMakeFiles/HiveWE.dir/src/main.cpp.o.ddi 
+TRUE
+/bin/sh: строка 1: TRUE: команда не найдена
+[4/201] Scanning /home/kira/apps/HiveWE-main/src/main_window/hivewe.cpp for CXX dependencies
+FAILED: CMakeFiles/HiveWE.dir/src/main_window/hivewe.cpp.o.ddi 
+TRUE
+/bin/sh: строка 1: TRUE: команда не найдена
+[5/201] Scanning /home/kira/apps/HiveWE-main/src/base/triggers.cpp for CXX dependencies
+FAILED: CMakeFiles/HiveWE.dir/src/base/triggers.cpp.o.ddi 
+TRUE
+/bin/sh: строка 1: TRUE: команда не найдена
+[6/201] Scanning /home/kira/apps/HiveWE-main/src/base/terrain.cpp for CXX dependencies
+FAILED: CMakeFiles/HiveWE.dir/src/base/terrain.cpp.o.ddi 
+TRUE
+/bin/sh: строка 1: TRUE: команда не найдена
+[7/201] Scanning /home/kira/apps/HiveWE-main/src/base/units.cpp for CXX dependencies
+FAILED: CMakeFiles/HiveWE.dir/src/base/units.cpp.o.ddi 
+TRUE
+/bin/sh: строка 1: TRUE: команда не найдена
+[8/201] Scanning /home/kira/apps/HiveWE-main/src/brush/brush.cpp for CXX dependencies
+FAILED: CMakeFiles/HiveWE.dir/src/brush/brush.cpp.o.ddi 
+TRUE
+/bin/sh: строка 1: TRUE: команда не найдена
+[9/201] Scanning /home/kira/apps/HiveWE-main/src/main_window/main_ribbon.cpp for CXX dependencies
+FAILED: CMakeFiles/HiveWE.dir/src/main_window/main_ribbon.cpp.o.ddi 
+TRUE
+/bin/sh: строка 1: TRUE: команда не найдена
+[10/201] Scanning /home/kira/apps/HiveWE-main/src/main_window/glwidget.cpp for CXX dependencies
+FAILED: CMakeFiles/HiveWE.dir/src/main_window/glwidget.cpp.o.ddi 
+TRUE
+/bin/sh: строка 1: TRUE: команда не найдена
+[11/201] Scanning /home/kira/apps/HiveWE-main/src/base/doodads.cpp for CXX dependencies
+FAILED: CMakeFiles/HiveWE.dir/src/base/doodads.cpp.o.ddi 
+TRUE
+/bin/sh: строка 1: TRUE: команда не найдена
+ninja: build stopped: subcommand failed.

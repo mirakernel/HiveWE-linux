@@ -1,0 +1,7 @@
+.vs
+.vscode
+*.j
+backups
+build
+logs
+vc140.pdb
